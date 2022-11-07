@@ -32,6 +32,21 @@
     </head>
 
     <body>
+
+        <style>
+            /* Chrome, Safari, Edge, Opera */
+            input::-webkit-outer-spin-button,
+            input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+            }
+
+            /* Firefox */
+            input[type=number] {
+            -moz-appearance: textfield;
+            }
+        </style>
+
         <!-- ======= Mobile nav toggle button ======= -->
         <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
 
@@ -533,20 +548,26 @@
                         </div>
 
                         <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-                            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                            <form action="https://outtred.com/portfolio/send_email.php" method="post" role="form" class="php-email-form">
                                 <div class="row">
                                     <div class="form-group col-md-6">
-                                        <label for="name">Your Name</label>
-                                        <input type="text" name="name" class="form-control" id="name" required />
+                                        <label for="name">First Name</label>
+                                        <input type="text" name="fname" class="form-control" id="name" required />
                                     </div>
                                     <div class="form-group col-md-6">
-                                        <label for="name">Your Email</label>
-                                        <input type="email" class="form-control" name="email" id="email" required />
+                                        <label for="name">Last Name</label>
+                                        <input type="text" class="form-control" name="lname" id="lname" required />
                                     </div>
                                 </div>
-                                <div class="form-group">
-                                    <label for="name">Subject</label>
-                                    <input type="text" class="form-control" name="subject" id="subject" required />
+                                <div class="row">
+                                    <div class="form-group col-md-6">
+                                        <label for="name">Mobile Number</label>
+                                        <input type="number" name="number" class="form-control" id="number" required />
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <label for="name">Email Address</label>
+                                        <input type="email" class="form-control" name="email" id="email" required />
+                                    </div>
                                 </div>
                                 <div class="form-group">
                                     <label for="name">Message</label>
