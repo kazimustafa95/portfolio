@@ -128,7 +128,7 @@
 
 @media  screen and (max-width: 1030px) {
     .slide img{
-        height: 380px;
+        height: 350px;
     }
     .b_text p{
         padding:10px 40px;
@@ -167,13 +167,13 @@
     .b_text p{
         padding:10px 20px;
         margin-top:25px;
-        font-size:13px;
+        font-size:12px;
     }
     .banner{
         padding:10px;
     }
     .h_logo img{
-        width: 120px;
+        width: 100px;
     }
     .b_text{
         width: 100%;
@@ -185,12 +185,13 @@
         float: left;
     }
     .footer{
-        float: left;
-        width: 100%;
-        color: white;
-        text-align: center;
-        padding: 20px;
-        background-color: #af9912;
-        font-size:18px;
+        padding: 10px;
+        font-size:16px;
+    }
+}
+
+@media  screen and (max-width: 285px) {
+    .slide img{
+        height: 200px;
     }
 }
