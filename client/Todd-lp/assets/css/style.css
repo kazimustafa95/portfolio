@@ -2,21 +2,25 @@
     margin: 0;
     padding: 0;
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    overflow-x: hidden;
+    overflow: hidden;
+    height:100%;
 }
 .banner{
     background-color: #000;
-    padding:35px 20px;
+    height:40% !important;
 }
 .h_logo{
     text-align: center;
 }
 .h_logo img{
+    margin-top: 2%;
     width: auto;
+    height:80%;
 }
 .body{
     text-align: center;
     width: 100%;
+    height:51% !important;
 }
 .b_text{
     width: 50%;
@@ -25,7 +29,7 @@
 .b_text p{
     padding:10px 40px;
     margin-top:15%;
-    font-size:30px;
+    font-size: 1vw;
 }
 .s_img{
     width: 50%;
@@ -44,171 +48,34 @@
 .slide img{
     display: block;
     width: 100%;
-    height: auto;
+    height: 100% !important;
 }
 .footer{
     width: 100%;
+    height:8%;
     float: left;
     color: white;
     text-align: center;
     padding: 20px;
     background-color: #af9912;
-    font-size:18px;
+    font-size: 1vw;
 }
-/* (1366x768) WXGA Display */
-@media  screen and (max-width: 1930px) {
-    .h_logo{
-        text-align: center;
-    }
-    .h_logo img{
-        width: 200px;
-    }
-    .slide img{
-        display: block;
-        width: 100%;
-        height: 580px;
-    }
-    .b_text p{
-        padding:10px 40px;
-        margin-top:15%;
-        font-size:20px;
-    }
+.f_text p{
+    margin-top:20px;
 }
 
-@media  screen and (max-width: 1690px) {
-    .slide img{
-        height: 550px;
-    }
-}
 
-@media  screen and (max-width: 1610px) {
-    .slide img{
-        height: 450px;
-    }
-    .b_text p{
-        padding:10px 40px;
-        margin-top:80px;
-        font-size:20px;
-    }
-    .banner{
-        padding:20px;
-    }
-    .h_logo img{
-        width: 180px;
-    }
-}
-
-@media  screen and (max-width: 1450px) {
-    .slide img{
-        height: 450px;
-    }
-    .b_text p{
-        padding:10px 40px;
-        margin-top:80px;
-        font-size:20px;
-    }
-}
-
-@media  screen and (max-width: 1366px) {
-    .slide img{
-        height: 380px;
-    }
-    .b_text p{
-        padding:10px 40px;
-        margin-top:60px;
-        font-size:18px;
-    }
-    .banner{
-        padding:10px;
-    }
-    .h_logo img{
-        width: 150px;
-    }
-}
-
-@media  screen and (max-width: 1160px) {
-    .slide img{
-        height: 410px;
-    }
-    .b_text p{
-        padding:10px 40px;
-        margin-top:60px;
-        font-size:18px;
-    }
-    .banner{
-        padding:20px;
-    }
-    .h_logo img{
-        width: 180px;
-    }
-}
-
-@media  screen and (max-width: 1030px) {
-    .slide img{
-        height: 350px;
-    }
-    .b_text p{
-        padding:10px 40px;
-        margin-top:60px;
-        font-size:16px;
-    }
-    .banner{
-        padding:15px;
-    }
-    .h_logo img{
-        width: 140px;
-    }
-}
-
-@media  screen and (max-width: 810px) {
-    .slide img{
-        height: 250px;
-    }
-    .b_text p{
-        padding:10px 20px;
-        margin-top:25px;
-        font-size:13px;
-    }
-    .banner{
-        padding:10px;
-    }
-    .h_logo img{
-        width: 120px;
-    }
-}
-
-@media  screen and (max-width: 650px) {
-    .slide img{
-        height: 250px;
-    }
-    .b_text p{
-        padding:10px 20px;
-        margin-top:25px;
-        font-size:12px;
-    }
-    .banner{
-        padding:10px;
-    }
-    .h_logo img{
-        width: 100px;
-    }
+@media  screen and (max-width: 1000px) {
     .b_text{
         width: 100%;
-        float: right;
+        height:30% !important;
     }
     .s_img{
-        margin-top: 30px;
         width: 100%;
-        float: left;
+        height:70% !important;
     }
-    .footer{
-        padding: 10px;
-        font-size:16px;
-    }
-}
-
-@media  screen and (max-width: 285px) {
-    .slide img{
-        height: 200px;
+    .b_text p{
+        margin-top:5%;
+        font-size: 1vw;
     }
 }
