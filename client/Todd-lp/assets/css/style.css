@@ -56,6 +56,13 @@
     font-size:18px;
 }
 /* (1366x768) WXGA Display */
+@media  screen and (max-width: 1930px) {
+    .slide img{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+}
 
 @media  screen and (max-width: 1690px) {
     .slide img{
