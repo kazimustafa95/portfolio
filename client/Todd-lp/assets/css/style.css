@@ -12,7 +12,7 @@
     text-align: center;
 }
 .h_logo img{
-    width: 200px;
+    width: auto;
 }
 .body{
     text-align: center;
@@ -25,7 +25,7 @@
 .b_text p{
     padding:10px 40px;
     margin-top:15%;
-    font-size:20px;
+    font-size:30px;
 }
 .s_img{
     width: 50%;
@@ -57,10 +57,21 @@
 }
 /* (1366x768) WXGA Display */
 @media  screen and (max-width: 1930px) {
+    .h_logo{
+        text-align: center;
+    }
+    .h_logo img{
+        width: 200px;
+    }
     .slide img{
         display: block;
         width: 100%;
         height: 580px;
+    }
+    .b_text p{
+        padding:10px 40px;
+        margin-top:15%;
+        font-size:20px;
     }
 }
 
