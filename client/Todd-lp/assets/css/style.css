@@ -66,9 +66,19 @@
 
 
 @media  screen and (max-width: 1000px) {
+    .banner{
+        height:30% !important;
+    }
+    .h_logo img{
+        margin-top: 6% !important;
+        height:50%;
+    }
+    .body{
+        height:61% !important;
+    }
     .b_text{
         width: 100%;
-        height:30% !important;
+        height:40% !important;
     }
     .s_img{
         width: 100%;
@@ -76,6 +86,18 @@
     }
     .b_text p{
         margin-top:5%;
-        font-size: 1vw;
+        font-size: 3vw;
+    }
+    .h_logo img{
+        margin-top: 2%;
+        width: auto;
+        height:80%;
+    }
+    .footer{
+        height:5%;
+        font-size: 4vw;
+    }
+    .f_text p{
+        margin-top:10px;
     }
 }
