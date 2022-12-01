@@ -475,8 +475,8 @@
                                     <input id="amount-field" class="now-input--input" disabled placeholder="" value="1" autocomplete="off" inputmode="decimal"> 
                                  </div>
                                  <div class="combobox combobox__dark exchange-calculator--currency-field combobox__green-scrollbar">
-                                    <div class="combobox--field" role="button" tabindex="0">
-                                       <div class="currency-item currency-item__dark exchange-calculator--selected-currency-item" id="btn">
+                                    <div class="combobox--field" role="button" tabindex="0" id="btn">
+                                       <div class="currency-item currency-item__dark exchange-calculator--selected-currency-item" id="data">
                                           <div class="currency-item__left">
                                              <img class="currency-icon currency-item--currency-icon" src="https://content-api.changenow.io/uploads/btc_d8db07f87d.svg" alt="icon-btc" loading="lazy">
                                           </div>
@@ -596,8 +596,8 @@
                                     </button>
                                  </div>
                                  <div class="combobox combobox__dark exchange-calculator--currency-field combobox__green-scrollbar">
-                                    <div class="combobox--field" role="button" tabindex="0">
-                                       <div class="currency-item currency-item__dark exchange-calculator--selected-currency-item" id="btnn">
+                                    <div class="combobox--field" role="button" tabindex="0" id="btnn">
+                                       <div class="currency-item currency-item__dark exchange-calculator--selected-currency-item" id='data1'>
                                           <div class="currency-item__left"><img class="currency-icon currency-item--currency-icon" src="https://content-api.changenow.io/uploads/eth_f4ebb54ec0.svg" alt="icon-eth" loading="lazy"></div>
                                           <div class="currency-item__right"><span class="currency-item--ticker">ETH</span></div>
                                        </div>
@@ -1783,7 +1783,7 @@
                e.preventDefault();
                var val=$(this).html();
          
-               $("#btn").html(val);
+               $("#data").html(val);
                $("#select").hide();
             })
             }
@@ -1793,7 +1793,7 @@
                e.preventDefault();
                var val=$(this).html();
          
-               $("#btnn").html(val);
+               $("#data1").html(val);
                $("#selectt").hide();
             });
            
